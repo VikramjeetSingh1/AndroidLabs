@@ -14,23 +14,31 @@
     tools:showIn="@layout/activity_login"
     android:orientation="vertical"
     android:baselineAligned="false"
-    android:elevation="1dp">
+    android:elevation="1dp"
+    android:weightSum="1">
 
     <TextView
-        android:text="Textview"
+        android:text="Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        tools:text="Login" />
+      />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="@string/Login"
         android:ems="10"
         android:id="@+id/editText"
-        android:hint="Login name" />
+        android:hint="Login name"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:hint="Password" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -38,5 +46,7 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/editText2"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:hint="Password"
+        android:layout_weight="0.11" />
 </LinearLayout>
