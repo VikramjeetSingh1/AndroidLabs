@@ -3,4 +3,7 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">hello!</string>
     <string name="ButtonText">I\’m a button</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Login">Login</string>
+
 </resources>
