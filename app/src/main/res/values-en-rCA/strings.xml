@@ -3,4 +3,9 @@
 
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">le bouton</string>
+    <string name="finishActivityMessage">finish</string>
+    <string name="finishActivityTitle">finish</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+
 </resources>

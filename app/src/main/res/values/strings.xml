@@ -5,5 +5,9 @@
     <string name="ButtonText">I\’m a button</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="Login">Login</string>
+    <string name="finishActivityMessage">finish</string>
+    <string name="finishActivityTitle">finish</string>
+    <string name="ok">ok</string>
+<string name="cancel">cancel</string>
 
 </resources>
